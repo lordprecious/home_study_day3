@@ -11,7 +11,7 @@ file.findMissing = function (arr1, arr2) {
 	} else if (arr1.length === arr2.length) {    // condition that checks if the length of both arrays are the same size then returns 0 if true
 		return 0;
 
-	}  else if(arr1.length < arr2.length) {	 // condition that checks if the length of the first array is smaller compared to te second one
+	}  else if(arr1.length !== arr2.length) {	 // condition that checks if the length of both arrays are diffrent
 		var missingNumber = [];
 		var joined = arr1.concat(arr2);			 // concantenate both arrays
 		for(var i = 0; i < joined.length; i++ ) {
