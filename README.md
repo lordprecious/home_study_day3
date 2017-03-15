@@ -5,7 +5,6 @@
 		-----------------------------------------------------------------------------------------------------------------------------------------
 				-----------------------------------------------------------------------------------------------------------------------
 
-				# Api-app
 
 				INTRODUCTION
 				-------------
@@ -30,21 +29,21 @@
 				INSTALLATION
 				------------
 
-				the functions are buil to run via the command line, hence no need for installation. to run the any of the functions
+				the functions are built to run via the command line, hence no need for installation. to run any of the functions
 				 you use this command
 
 							"jasmine app/filename.js"
 
-				if the jasmine frame work is successfully installed, you would have no problem using the app.
+				if the jasmine frame work is successfully installed, you would have no problem running the functions.
 
 				CONFIGURATION
 				-------------
-				no special configuration is required to run the application, just install the jasmine framework
+				no special configuration is required to run the functions, just install the jasmine framework
 
 				TROUBLESHOOTING
 				---------------
 
-				in case you are having issue running the application, try the following.
+				in case you are having issue running the functions, try the following.
 
 				* first of all check if jasmine is fully installed by typing " jasmine " on the command line.
 					if it trully installed, it would display a message on a command line saying " jasmine started "
